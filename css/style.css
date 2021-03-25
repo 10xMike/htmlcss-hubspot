@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
 /* Header */
 header{
     width: 100%;
@@ -12,6 +18,21 @@ header{
     background-color: azure;
 }
 
-/* .firstnav{
-    
-} */
+.first_container{
+    width: 100%;
+    background-color: azure;
+} 
+
+.second_container{
+    background-color: cadetblue;
+    width: 100%;
+}
+
+.secondnav_container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+}
