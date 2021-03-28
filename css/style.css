@@ -1,20 +1,41 @@
-/* Utility rules */
+/* Common rules */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+/*     font-family: Arial, Helvetica, sans-serif; */
 }
-
+/* Utilities */
 .clearfix::after{
     display: table;
     content: '';
     clear: both;
 }
-
+.container{
+    width: 80%;
+    margin: auto;
+}
+.bg_lightblue{
+    background-color: #F4F9FD;
+}
+/* Debug */
+.debug header{ 
+    background-color: aquamarine;
+    height: 650px;
+}
+.debug main{
+    background-color: bisque;
+    height: 1700px;
+} 
+.debug footer{
+    background-color: cornflowerblue;
+    height: 400px;
+}
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    background: tomato;
+    background-color: #F4F9FD;
+    min-width: 1920px;
 }
 /* Header */
 header{
@@ -22,28 +43,17 @@ header{
     height: 1000px;
     background-color: limegreen;
 }
-
-.first_container{
-    width: 100%;
-    background-color: azure;
-    height: 85px;
-} 
-
-#globe{
-    width: 15px;
-    filter: brightness(50%);
+#top_nav{
+    height: 80px;
 }
-
-.second_container{
-    background-color: white;
-    width: 100%;
-    height: 100px;
+.menu_left, .menu_right{
+    width: 50%;
+    float: left;
 }
-
-.secondnav_container{
-    width: 80%;
-    margin: 0 auto;
+.menu_right{
+    text-align: right;
 }
+/* **************************************** */
 
 .logo{
     float: left;
@@ -52,8 +62,19 @@ header{
 
 #top_nav li{
     display: inline-block;
-    margin-left: 80px;
-    padding-top: 40px;
+    /* margin-left: 80px;
+    padding-top: 40px; */
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+#top_nav a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.left_menu{
+    float: left;
 }
 
 #bottom_nav{
@@ -86,5 +107,5 @@ nav a:hover{
     background-color: #FFF5EF;
     background-image: url('./hubspot/img/jumbotron.png');
     background-repeat: no-repeat;
-    background-position: 85%;
+    background-position: 100%;
 }
