@@ -11,8 +11,7 @@
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 
 </head>
 
@@ -21,22 +20,34 @@
         <!-- Top Nav -->
         <nav id="top_nav" class="bg_lightblue">
             <div class="container clearfix">
-                <div class="menu_left">left menu</div>
-                <div class="menu_right">right menu</div>
-                <!-- <ul id="top_nav" class="left_menu">
-                    <li><a href="#"> <span><img id="globe" src="./css/hubspot/img/globe.svg" alt=""></span> English</a>
-                    </li>
-                    <li><a href="#">Contacts Us</a></li>
-                    <li><a href="#">Log In</a></li>
-                    <li><a href="#">Get HubSpotFree</a></li>
-                </ul> -->
+                <div class="menu_left">
+                    <ul class="menu_inline">
+                        <li><a href="#">
+                            <i class="fas fa-globe-europe fa-sm fa-fw"></i>
+                            English
+                            <i class="fas fa-chevron-down fa-sm fa-fw"></i>
+                        </a></li>
+                        <li><a href="#">|Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="menu_right">
+                    <ul class="menu_inline">
+                        <li>
+                            <a href="#">
+                                <img class="search_icon" src="./css/hubspot/img/search-20icon.webp" alt="search">
+                            </a>
+                        </li>
+                        <li><a class="btn btn_outline" href="#">Log In</a></li>
+                        <li><a href="#" class="btn btn_solid">GetHubspotFree</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <!-- /Top Nav -->
         <hr>
         <!-- Bottom Nav -->
-<!--         <nav class="bottom_nav">
-            <div class="container">
+        <nav id="bottom_nav">
+            <div class="container clearfix">
                 <img class="logo" src="./css/hubspot/img/logo.svg" alt="">
                 <ul id="bottom_nav">
                     <li><a href="">Software</a></li>
@@ -46,7 +57,7 @@
                     <li><a href="">About</a></li>
                 </ul>
             </div>
-        </nav> -->
+        </nav>
         <!-- /Bottom Nav -->
         <div class="jumbotron">
 
