@@ -26,6 +26,7 @@ a{
 .container{
     width: 80%;
     margin: auto;
+    line-height: 80px;
 }
 
 .bg_lightblue{
@@ -55,9 +56,11 @@ a{
     height: 400px;
 }
 
+
 /* Header */
 #top_nav{
     height: 80px;
+    border-bottom: 1px solid black;
 }
 
 .menu_left, .menu_right{
@@ -74,7 +77,7 @@ a{
 }
 
 .search_icon{
-    width: 15px;
+    width: 20px;
     margin-right: 1rem;
 }
 
@@ -99,51 +102,38 @@ a{
     padding: 13px 10px;
 }
 
-.logo{
-    line-height: 80px;
-}
-
-.logo > img{
-    
-}
-/* **************************************** */
-
-#top_nav li{
-    display: inline-block;
-    /* margin-left: 80px;
-    padding-top: 40px; */
-    line-height: 80px;
-    vertical-align: middle;
-}
-
-#top_nav a{
-    list-style: none;
-    text-decoration: none;
-}
-
-.left_menu{
+.logo, .main_menu{
     float: left;
 }
 
+.logo{
+    /* line-height: 80px; */
+    width: 18%;
+}
+
+.logo > img{
+    vertical-align: middle;
+}
+
+.main_menu{
+    width: 80%;
+    text-align: right;
+}
+
 #bottom_nav{
-    float: right;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    background-color: white;
 }
 
-#bottom_nav li {
-    display: inline-block;
-    margin-left: 25px;
-    padding-top: 40px;
+.main_menu a{
+    color: #32495b;
 }
 
-#bottom_nav a{
-    color: rgb(17, 69, 90);
-    font-size: 1rem;
-    font-weight: 450;
-    text-decoration: none;
+.menu_inline a{
+    padding-right: 10px;
 }
+/* **************************************** */
+
+
 
 .jumbotron{
     height: 530px;
