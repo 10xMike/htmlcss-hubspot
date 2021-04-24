@@ -103,9 +103,6 @@ body{
     text-align: right;
 }
 
-#bottom_nav{
-    background-color: white;
-}
 
 .main_menu a{
     color: #32495b;
@@ -178,5 +175,9 @@ body{
 .navbar .btn_text{
     color: #FE775A;
 }
+#topnav{
+    border-bottom: 1px solid #32495B;
+}
+
     
 
