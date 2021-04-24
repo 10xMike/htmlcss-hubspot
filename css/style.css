@@ -12,9 +12,6 @@ body{
     min-width: 1920px;
 }
 
-a{
-    text-decoration: none;
-}
 
 /* Utilities */
 .clearfix::after{
@@ -28,7 +25,7 @@ a{
     margin: auto;
     line-height: 80px;
 }
-
+ 
 .bg_lightblue{
     background-color: #F4F9FD;
 }
@@ -42,21 +39,7 @@ a{
     list-style: none;
 }
 
-/* Debug */
-.debug header{ 
-    background-color: aquamarine;
-    height: 650px;
-} 
 
-.debug main{
-    background-color: bisque;
-    height: 1700px;
-} 
-
-.debug footer{
-    background-color: cornflowerblue;
-    height: 400px;
-}
 
 /* Header */
 #top_nav{
@@ -82,7 +65,7 @@ a{
     margin-right: 1rem;
 }
 
-.btn{
+ .btn{
     padding: 10px;
     border-radius: 5px;
     font-size: 14px;
@@ -93,14 +76,14 @@ a{
     background-color: white;
     color: #FE775A;
     margin-right: 1rem;
-    padding: 13px 10px;
+    padding: 10px 10px;
 }
 
 .btn_solid{
     border: #FE775A;
     background-color: #FE775A;
     color: white;
-    padding: 13px 10px;
+    padding: 10px 10px;
 }
 
 .logo, .main_menu{
@@ -184,3 +167,16 @@ a{
     font-size: 0.75rem;
     padding-top: 2.25rem;
 }
+
+
+.bg_lightskyblue{
+    background-color: #F4F9FD;
+}
+.navbar a{
+    color: #32495b;
+}
+.navbar .btn_text{
+    color: #FE775A;
+}
+    
+
